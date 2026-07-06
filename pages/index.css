@@ -8,6 +8,9 @@
 
 body {
   margin: 0;
+}
+
+.page {
   min-width: 320px;
   background-color: #2a2c2f;
   color: #fff;
