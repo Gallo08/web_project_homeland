@@ -16,4 +16,4 @@ A página apresenta uma galeria sobre diferentes lugares do mundo utilizando HTM
 
 ## GitHub Pages
 
-https://gallo08.github.io/web_project_homeland/
+https://github.com/Gallo08/web_project_homeland
