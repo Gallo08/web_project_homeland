@@ -154,5 +154,6 @@
 }
 
 .place__button:hover {
-  background-color: #0063d2;
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
