@@ -152,3 +152,7 @@
     text-align: center;
   }
 }
+
+.place__button:hover {
+  background-color: #0063d2;
+}
