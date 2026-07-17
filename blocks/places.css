@@ -99,7 +99,6 @@
 
   .place__paragraph {
     font-size: 16px;
-    line-height: 1.63;
   }
 }
 
@@ -139,11 +138,6 @@
 
   .place__description {
     margin: 0 16px;
-  }
-
-  .place__paragraph {
-    font-size: 16px;
-    line-height: 1.63;
   }
 
   .place__button {

@@ -13,6 +13,7 @@ A página apresenta uma galeria sobre diferentes lugares do mundo utilizando HTM
 - Flexbox
 - Media Queries
 - Metodologia BEM
+- CSS Grid
 
 ## GitHub Pages
 
