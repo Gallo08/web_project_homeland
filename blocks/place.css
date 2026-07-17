@@ -1,0 +1,139 @@
+.place {
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-areas:
+    "title artist"
+    "image description"
+    "button description";
+  column-gap: 40px;
+  row-gap: 48px;
+  margin-bottom: 80px;
+}
+
+.place__title {
+  grid-area: title;
+  margin: 0;
+  max-width: 460px;
+  font-size: 72px;
+  line-height: 1.06;
+  font-weight: 900;
+}
+
+.place__artist {
+  grid-area: artist;
+  align-self: end;
+}
+
+.place__artist-heading {
+  margin: 0 0 8px;
+  font-size: 12px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+
+.place__artist-name {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+.place__image {
+  grid-area: image;
+  width: 100%;
+  height: 460px;
+  object-fit: cover;
+}
+
+.place__description {
+  grid-area: description;
+}
+
+.place__paragraph {
+  margin: 0 0 25px;
+  font-size: 18px;
+  line-height: 1.63;
+}
+
+.place__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.place__button {
+  grid-area: button;
+  align-self: start;
+  justify-self: start;
+  padding: 13px 20px;
+  background-color: #0278fe;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.22;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 340px 1fr;
+    column-gap: 28px;
+  }
+
+  .place__title {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+
+  .place__image {
+    width: 340px;
+    height: 340px;
+  }
+
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "artist"
+      "image"
+      "description"
+      "button";
+    row-gap: 30px;
+    margin-bottom: 50px;
+  }
+
+  .place__title {
+    max-width: 288px;
+    margin: 0 16px;
+    font-size: 32px;
+    line-height: 1.09;
+  }
+
+  .place__artist {
+    margin: 0 16px;
+  }
+
+  .place__image {
+    width: 100%;
+    height: 320px;
+  }
+
+  .place__description {
+    margin: 0 16px;
+  }
+
+  .place__button {
+    margin: 0 16px;
+    justify-self: stretch;
+    text-align: center;
+  }
+}
+
+.place__button:hover {
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
