@@ -25,7 +25,7 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .lead {
     max-width: 720px;
   }
@@ -36,9 +36,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .lead {
-    max-width: 320px;
+    max-width: 544px;
   }
 
   .lead__title {

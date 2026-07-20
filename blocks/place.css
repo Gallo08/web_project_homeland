@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: 460px 484px;
+  grid-template-columns: 460px 1fr;
   grid-template-areas:
     "title artist"
     "image description"
@@ -72,9 +72,9 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .place {
-    grid-template-columns: 340px 1fr;
+    grid-template-columns: 340px minmax(0, 1fr);
     column-gap: 28px;
   }
 
@@ -93,7 +93,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .place {
     grid-template-columns: 1fr;
     grid-template-areas:
