@@ -107,7 +107,6 @@
   }
 
   .place__title {
-    max-width: 288px;
     margin: 0 16px;
     font-size: 32px;
     line-height: 1.09;
